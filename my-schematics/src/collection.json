@@ -1,5 +1,5 @@
 {
-  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "$schema": "../../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
     "my-schematics": {
       "description": "A blank schematic.",
@@ -9,6 +9,11 @@
       "description": "Plugin schematic.",
       "factory": "./my-plugin/index#myPlugin",
       "schema": "./my-plugin/schema.json"
+    },
+    "my-carousel": {
+      "description": "Carousel schematic.",
+      "factory": "./my-carousel/index#myCarousel",
+      "schema": "./my-carousel/schema.json"
     }
   }
 }

@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "schematics:install": "npm --cwd ./my-schematics",
-    "schematics:build": "npx --cwd ./my-schematics build",
+    "schematics:build": "npm --cwd ./my-schematics build",
     "schematics:link": "npm link --cwd ./my-schematics && npm link 'my-schematics'"
   },
   "private": true,
